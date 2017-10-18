@@ -59,6 +59,8 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <!-- Jersey -->
             <dependency>
                 <groupId>org.glassfish.jersey.media</groupId>
                 <artifactId>jersey-media-multipart</artifactId>
@@ -75,6 +77,12 @@
                 <version>${jersey.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.glassfish.jersey.inject</groupId>
+                <artifactId>jersey-hk2</artifactId>
+                <version>${jersey.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>3.6</version>
@@ -89,6 +97,8 @@
                 <artifactId>javassist</artifactId>
                 <version>3.22.0-GA</version>
             </dependency>
+
+            <!-- Jackson -->
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
@@ -129,6 +139,7 @@
                 <artifactId>jackson-jaxrs-smile-provider</artifactId>
                 <version>${jackson.version}</version>
             </dependency>
+            
             <dependency>
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
