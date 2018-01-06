@@ -88,6 +88,11 @@
                 <artifactId>hk2-utils</artifactId>
                 <version>${hk2.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.glassfish.hk2</groupId>
+                <artifactId>hk2-locator</artifactId>
+                <version>${hk2.version}</version>
+            </dependency>
 
             <!-- Apache commons -->
             <dependency>
