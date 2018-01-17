@@ -152,6 +152,16 @@
                 <artifactId>jena-iri</artifactId>
                 <version>1.0.2</version>
             </dependency>
+            <dependency>
+                <groupId>org.xerial.snappy</groupId>
+                <artifactId>snappy-java</artifactId>
+                <version>1.1.7.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.deephacks.lmdbjni</groupId>
+                <artifactId>lmdbjni</artifactId>
+                <version>0.4.7</version>
+            </dependency>
 
             <!-- Jackson -->
             <dependency>
