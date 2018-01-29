@@ -49,9 +49,9 @@
     </ciManagement>
 
     <properties>
-        <jackson.version>2.9.3</jackson.version>
+        <jackson.version>2.9.4</jackson.version>
         <jersey.version>2.26</jersey.version>
-        <hk2.version>2.5.0-b60</hk2.version>
+        <hk2.version>2.5.0-b61</hk2.version>
     </properties>
 
     <dependencyManagement>
