@@ -49,7 +49,7 @@
     </ciManagement>
 
     <properties>
-        <jackson.version>2.9.4</jackson.version>
+        <jackson.version>2.9.5</jackson.version>
         <jersey.version>2.26</jersey.version>
         <hk2.version>2.5.0-b61</hk2.version>
     </properties>
