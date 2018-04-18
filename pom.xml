@@ -162,6 +162,11 @@
                 <artifactId>lmdbjni</artifactId>
                 <version>0.4.7</version>
             </dependency>
+            <dependency>
+                <groupId>org.roaringbitmap</groupId>
+                <artifactId>RoaringBitmap</artifactId>
+                <version>0.7.9</version>
+            </dependency>
 
             <!-- Jackson -->
             <dependency>
