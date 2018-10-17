@@ -49,7 +49,7 @@
   </ciManagement>
 
   <properties>
-    <jackson.version>2.9.6</jackson.version>
+    <jackson.version>2.9.7</jackson.version>
     <jersey.version>2.27</jersey.version>
     <hk2.version>2.5.0-b62</hk2.version>
   </properties>
@@ -118,7 +118,7 @@
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-lang3</artifactId>
-        <version>3.7</version>
+        <version>3.8.1</version>
       </dependency>
       <dependency>
         <groupId>commons-io</groupId>
@@ -180,7 +180,7 @@
       <dependency>
         <groupId>org.roaringbitmap</groupId>
         <artifactId>RoaringBitmap</artifactId>
-        <version>0.7.16</version>
+        <version>0.7.18</version>
       </dependency>
       <dependency>
         <groupId>org.apache.xmlbeans</groupId>
