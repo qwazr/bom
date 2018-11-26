@@ -5,7 +5,7 @@
   <groupId>com.qwazr</groupId>
   <artifactId>qwazr-bom</artifactId>
   <packaging>pom</packaging>
-  <version>1.4.1-SNAPSHOT</version>
+  <version>1.4.1</version>
   <name>QWAZR Bill Of Materials</name>
 
   <description>Reactive Framework for Web Applications And MicroServices</description>
@@ -38,7 +38,7 @@
     <connection>scm:git:git@github.com:qwazr/bom.git</connection>
     <developerConnection>scm:git:git@github.com:qwazr/bom.git</developerConnection>
     <url>git@github.com:qwazr/bom.git</url>
-    <tag>HEAD</tag>
+    <tag>v1.4.1</tag>
   </scm>
 
   <issueManagement>
@@ -307,6 +307,10 @@
             <goals>
               <goal>sign</goal>
             </goals>
+            <configuration>
+              <keyname>${gpg.keyname}</keyname>
+              <passphraseServerId>${gpg.keyname}</passphraseServerId>
+            </configuration>
           </execution>
         </executions>
       </plugin>
