@@ -98,11 +98,6 @@
         <artifactId>hk2-locator</artifactId>
         <version>${hk2.version}</version>
       </dependency>
-      <dependency>
-        <groupId>org.glassfish.hk2.external</groupId>
-        <artifactId>javax.inject</artifactId>
-        <version>${hk2.version}</version>
-      </dependency>
 
       <!-- Apache commons -->
       <dependency>
