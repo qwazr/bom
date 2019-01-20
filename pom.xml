@@ -199,6 +199,11 @@
         <artifactId>xnio-api</artifactId>
         <version>3.6.5.Final</version>
       </dependency>
+      <dependency>
+        <groupId>org.jboss.threads</groupId>
+        <artifactId>jboss-threads</artifactId>
+        <version>2.3.2.Final</version>
+      </dependency>
 
       <!-- Jackson -->
       <dependency>
