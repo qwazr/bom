@@ -21,7 +21,7 @@
   </licenses>
 
   <organization>
-    <name>Jaeksoft / OpenSearchServer</name>
+    <name>QWAZR</name>
     <url>http://www.qwazr.com</url>
   </organization>
 
@@ -29,7 +29,7 @@
     <developer>
       <name>Emmanuel Keller</name>
       <email>emmanuel@qwazr.com</email>
-      <organization>Jaeksoft / OpenSearchServer</organization>
+      <organization>QWAZR</organization>
       <organizationUrl>http://www.qwazr.com</organizationUrl>
     </developer>
   </developers>
@@ -173,17 +173,12 @@
         <version>1.1.7.2</version>
       </dependency>
       <dependency>
-        <groupId>org.deephacks.lmdbjni</groupId>
-        <artifactId>lmdbjni</artifactId>
-        <version>0.4.7</version>
-      </dependency>
-      <dependency>
         <groupId>org.roaringbitmap</groupId>
         <artifactId>RoaringBitmap</artifactId>
-        <version>0.7.36</version>
+        <version>0.7.42</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.xmlbeans</groupId>
+        <groupId>org.apsache.xmlbeans</groupId>
         <artifactId>xmlbeans</artifactId>
         <version>2.6.0</version>
       </dependency>
