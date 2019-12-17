@@ -49,10 +49,10 @@
   </ciManagement>
 
   <properties>
-    <jackson.version>2.9.9</jackson.version>
-    <jersey.version>2.28</jersey.version>
-    <hk2.version>2.5.0</hk2.version>
-    <undertow.version>2.0.21.Final</undertow.version>
+    <jackson.version>2.10.1</jackson.version>
+    <jersey.version>2.29.1</jersey.version>
+    <hk2.version>2.6.1</hk2.version>
+    <undertow.version>2.0.28.Final</undertow.version>
   </properties>
 
   <dependencyManagement>
@@ -124,7 +124,7 @@
       <dependency>
         <groupId>commons-codec</groupId>
         <artifactId>commons-codec</artifactId>
-        <version>1.12</version>
+        <version>1.13</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
@@ -146,17 +146,17 @@
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
-        <version>27.1-jre</version>
+        <version>28.1-jre</version>
       </dependency>
       <dependency>
         <groupId>org.javassist</groupId>
         <artifactId>javassist</artifactId>
-        <version>3.25.0-GA</version>
+        <version>3.26.0-GA</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-api</artifactId>
-        <version>1.7.26</version>
+        <version>1.7.30</version>
       </dependency>
       <dependency>
         <groupId>net.java.dev.jna</groupId>
@@ -186,7 +186,7 @@
       <dependency>
         <groupId>org.roaringbitmap</groupId>
         <artifactId>RoaringBitmap</artifactId>
-        <version>0.8.9</version>
+        <version>0.8.12</version>
       </dependency>
       <dependency>
         <groupId>org.apsache.xmlbeans</groupId>
@@ -198,27 +198,27 @@
       <dependency>
         <groupId>org.jboss.xnio</groupId>
         <artifactId>xnio-nio</artifactId>
-        <version>3.7.2.Final</version>
+        <version>3.7.7.Final</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.xnio</groupId>
         <artifactId>xnio-api</artifactId>
-        <version>3.7.2.Final</version>
+        <version>3.7.7.Final</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.threads</groupId>
         <artifactId>jboss-threads</artifactId>
-        <version>2.3.3.Final</version>
+        <version>3.0.0.Final</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.logging</groupId>
         <artifactId>jboss-logging</artifactId>
-        <version>3.4.0.Final</version>
+        <version>3.4.1.Final</version>
       </dependency>
       <dependency>
         <groupId>org.wildfly.common</groupId>
         <artifactId>wildfly-common</artifactId>
-        <version>1.5.1.Final</version>
+        <version>1.5.2.Final</version>
       </dependency>
 
       <!-- Jackson -->
