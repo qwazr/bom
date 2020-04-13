@@ -49,10 +49,10 @@
   </ciManagement>
 
   <properties>
-    <jackson.version>2.10.1</jackson.version>
-    <jersey.version>2.29.1</jersey.version>
+    <jackson.version>2.10.3</jackson.version>
+    <jersey.version>2.30.1</jersey.version>
     <hk2.version>2.6.1</hk2.version>
-    <undertow.version>2.0.28.Final</undertow.version>
+    <undertow.version>2.0.30.Final</undertow.version>
   </properties>
 
   <dependencyManagement>
@@ -124,12 +124,12 @@
       <dependency>
         <groupId>commons-codec</groupId>
         <artifactId>commons-codec</artifactId>
-        <version>1.13</version>
+        <version>1.14</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-lang3</artifactId>
-        <version>3.9</version>
+        <version>3.10</version>
       </dependency>
       <dependency>
         <groupId>commons-io</groupId>
@@ -146,12 +146,12 @@
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
-        <version>28.1-jre</version>
+        <version>28.2-jre</version>
       </dependency>
       <dependency>
         <groupId>org.javassist</groupId>
         <artifactId>javassist</artifactId>
-        <version>3.26.0-GA</version>
+        <version>3.27.0-GA</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
@@ -186,7 +186,7 @@
       <dependency>
         <groupId>org.roaringbitmap</groupId>
         <artifactId>RoaringBitmap</artifactId>
-        <version>0.8.12</version>
+        <version>0.8.13</version>
       </dependency>
       <dependency>
         <groupId>org.apsache.xmlbeans</groupId>
@@ -203,12 +203,12 @@
       <dependency>
         <groupId>org.jboss.xnio</groupId>
         <artifactId>xnio-api</artifactId>
-        <version>3.7.7.Final</version>
+        <version>3.8.0.Final</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.threads</groupId>
         <artifactId>jboss-threads</artifactId>
-        <version>3.0.0.Final</version>
+        <version>3.1.0.Final</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.logging</groupId>
@@ -218,7 +218,7 @@
       <dependency>
         <groupId>org.wildfly.common</groupId>
         <artifactId>wildfly-common</artifactId>
-        <version>1.5.2.Final</version>
+        <version>1.5.4.Final</version>
       </dependency>
 
       <!-- Jackson -->
@@ -292,7 +292,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
-        <version>3.0.1</version>
+        <version>3.2.1</version>
         <executions>
           <execution>
             <id>attach-sources</id>
@@ -305,7 +305,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
-        <version>3.0.1</version>
+        <version>3.2.0</version>
         <configuration>
           <failOnError>false</failOnError>
         </configuration>
@@ -321,7 +321,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
-        <version>2.5.3</version>
+        <version>3.0.0-M1</version>
         <configuration>
           <autoVersionSubmodules>true</autoVersionSubmodules>
           <useReleaseProfile>false</useReleaseProfile>
