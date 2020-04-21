@@ -272,6 +272,11 @@
         <artifactId>jackson-jaxrs-smile-provider</artifactId>
         <version>${jackson.version}</version>
       </dependency>
+      <dependency>
+        <groupId>com.fasterxml.woodstox</groupId>
+        <artifactId>woodstox-core</artifactId>
+        <version>6.1.1</version>
+      </dependency>
 
     </dependencies>
   </dependencyManagement>
