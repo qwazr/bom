@@ -186,7 +186,7 @@
       <dependency>
         <groupId>org.roaringbitmap</groupId>
         <artifactId>RoaringBitmap</artifactId>
-        <version>0.8.18</version>
+        <version>0.8.13</version>
       </dependency>
       <dependency>
         <groupId>org.apsache.xmlbeans</groupId>
