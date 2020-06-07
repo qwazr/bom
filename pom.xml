@@ -193,6 +193,11 @@
         <artifactId>xmlbeans</artifactId>
         <version>3.1.0</version>
       </dependency>
+      <dependency>
+        <groupId>com.ibm.icu</groupId>
+        <artifactId>icu4j</artifactId>
+        <version>67.1</version>
+      </dependency>
 
       <!-- Undertow & xnio -->
       <dependency>
