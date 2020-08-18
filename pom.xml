@@ -49,7 +49,7 @@
   </ciManagement>
 
   <properties>
-    <jackson.version>2.11.1</jackson.version>
+    <jackson.version>2.11.2</jackson.version>
     <jersey.version>2.31</jersey.version>
     <hk2.version>2.6.1</hk2.version>
     <undertow.version>2.1.3.Final</undertow.version>
@@ -65,7 +65,7 @@
       <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
-  
+
   <dependencyManagement>
     <dependencies>
 
@@ -140,7 +140,7 @@
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-lang3</artifactId>
-        <version>3.10</version>
+        <version>3.11</version>
       </dependency>
       <dependency>
         <groupId>commons-io</groupId>
