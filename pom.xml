@@ -234,7 +234,7 @@
       <dependency>
         <groupId>org.jboss.threads</groupId>
         <artifactId>jboss-threads</artifactId>
-        <version>3.2.10.Final</version>
+        <version>3.2.0.Final</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.logging</groupId>
