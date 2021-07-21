@@ -52,7 +52,7 @@
     <jackson.version>2.12.3</jackson.version>
     <jersey.version>2.34</jersey.version>
     <hk2.version>2.6.1</hk2.version>
-    <undertow.version>2.2.8.Final</undertow.version>
+    <undertow.version>2.2.9.Final</undertow.version>
   </properties>
 
   <distributionManagement>
@@ -233,7 +233,7 @@
       <dependency>
         <groupId>org.roaringbitmap</groupId>
         <artifactId>RoaringBitmap</artifactId>
-        <version>0.9.10</version>
+        <version>0.9.15</version>
       </dependency>
       <dependency>
         <groupId>org.apache.xmlbeans</groupId>
